@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-export default () => (
-  <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
-);
+export default function App() {
+  useEffect(() => {
+    loadPyodide({ fullStdLib: false }).then(async (py) => {
+      await py.loadPackage("libdemo");
+
+      const lib = py.pyimport("libdemo");
+      alert(lib.greet("World"));
+    });
+  }, []);
+
+  return (
+    <>
+      <h1>Welcome to Pyodide React app!</h1>
+      <p>Hard to get more minimal than this React app.</p>
+    </>
+  );
+}

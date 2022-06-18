@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "libdemo": {
+      "name": "libdemo",
+      "version": "0.1.0",
+      "file_name": "libdemo-0.1.0-py3-none-any.whl",
+      "install_dir": "site",
+      "depends": [],
+      "imports": ["libdemo"]
+    }
+  }
+}
