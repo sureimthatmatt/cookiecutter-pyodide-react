@@ -1,7 +1,8 @@
 {
-  "name": "cookiecutter-pyodide-react",
+  "name": "demo",
   "version": "0.1.0",
-  "description": "",
+  "description": "Demo Application",
+  "author": "Demo Author <demo@example.com>",
   "license": "MIT",
   "scripts": {
     "start": "vite",
