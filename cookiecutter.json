@@ -1,0 +1,9 @@
+{
+  "name": "cookiecutter-pyodide-react",
+  "name_py": "lib_cookiecutter_pyodide_react",
+  "description": "Cookiecutter Pyodide + React template",
+  "author": "Matt Toad <sureimthatmatt@gmail.com>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "_copy_without_render": ["node_modules", "pyodide"]
+}

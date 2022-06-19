@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "{{ cookiecutter.name_py }}": {
+      "name": "{{ cookiecutter.name_py }}",
+      "version": "{{ cookiecutter.version }}",
+      "file_name": "{{ cookiecutter.name_py }}-{{ cookiecutter.version }}-py3-none-any.whl",
+      "install_dir": "site",
+      "depends": [],
+      "imports": ["{{ cookiecutter.name_py }}"]
+    }
+  }
+}

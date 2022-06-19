@@ -10,7 +10,7 @@ const files = [
 
   // Library files
   "src/packages.json",
-  "src/libdemo/dist/libdemo-0.1.0-py3-none-any.whl",
+  "src/{{ cookiecutter.name_py }}/dist/{{ cookiecutter.name_py }}-{{ cookiecutter.version }}-py3-none-any.whl",
 ];
 
 export default {
