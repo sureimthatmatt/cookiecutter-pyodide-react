@@ -11,5 +11,5 @@ This Cookiecutter template can be used to bootstrap Pyodide (Python) + React
   relatively small deployments
 
 Open
-[{{ cookiecutter.name }}/README.md](https://github.com/sureimthatmatt/cookiecutter-pyodide-react/blob/master/%7B%7Bcookiecutter.name%7D%7D/README.md)
+[{{ cookiecutter.name }}/README.md](https://github.com/sureimthatmatt/cookiecutter-pyodide-react/blob/master/%7B%7B%20cookiecutter.name%20%7D%7D/README.md)
 file for more information.
