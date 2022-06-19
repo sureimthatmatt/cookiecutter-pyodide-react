@@ -7,7 +7,22 @@ which is based on
 
 - `npm start` — This will spawn a development server with a default port of
   `3000`.
-- `npm run build` — This will output a production build in the `dist` directory.
+- `npm run wheel` — This will output a Python library wheel in the
+  `src/{{ cookiecutter.name_py }}/dist` directory.
+- `npm run build` — This will output a React production build with up-to-date
+  Python library wheel, in the `dist` directory.
+
+## Making changes to the Python library
+
+Open `src/{{ cookiecutter.name_py }}` in PyCharm and create Poetry environment
+when prompted. Run `npm run wheel` in the root directory after you're done.
+
+## Adding extra Python dependencies
+
+Change contents of `src/packages.json` and `vite.config.js` files.
+
+You can use `pyodide/packages.json` and
+`src/{{ cookiecutter.name_py }}/poetry.lock` files as a source.
 
 ## Custom port
 

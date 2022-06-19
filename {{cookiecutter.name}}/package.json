@@ -6,7 +6,8 @@
   "license": "{{ cookiecutter.license }}",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "wheel": "cd src/{{ cookiecutter.name_py }} && poetry build -f wheel && cd -",
+    "build": "npm run wheel && vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
