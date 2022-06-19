@@ -10,6 +10,15 @@ This Cookiecutter template can be used to bootstrap Pyodide (Python) + React
 - ✅ Local version of [Pyodide](https://pyodide.org/en/stable/) for safe and
   relatively small deployments
 
+Check out the
+[Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/README.html)
+for information on how to use this repository. TL;DR:
+
+```bash
+pip install cookiecutter
+cookiecutter https://github.com/sureimthatmatt/cookiecutter-pyodide-react
+```
+
 Open
 [{{ cookiecutter.name }}/README.md](https://github.com/sureimthatmatt/cookiecutter-pyodide-react/blob/master/%7B%7B%20cookiecutter.name%20%7D%7D/README.md)
 file for more information.
